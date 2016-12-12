@@ -1,0 +1,433 @@
+
+
+	body{
+ margin: 0;
+ padding: 0;
+ font-family: 'Raleway', sans-serif;
+}
+a{
+ text-decoration: none;
+ color: white;
+}
+
+a:hover{
+ color: rgb(0,139,139);	
+ text-decoration: none; 
+}
+.trackr.promo.stripe{
+ height: 600px;
+ background-image: url(../images/try2.jpg);
+ background-size: cover;
+ background-position: right;
+}
+.trackr.promo.stripe .menu{
+ height: 100px;
+ opacity: 1;
+ line-height: 40px;
+}
+
+
+
+.trackr.promo.stripe .menu .logo{
+ margin-left: 1%;
+ margin-right: 40%;
+width: 40px;
+ height: inherit; 
+}
+
+.trackr.promo.stripe .menu .menu-entry{
+ display: inline-block;
+ color: white;
+ width: 9%;
+ height: 80%;
+ margin-right: 2%;
+ transform: translateY(-50%);
+ font-size: 3vw;
+ float: right;
+}
+.trackr.promo.stripe .slogan{
+ width: 50%;
+ margin-left: 3%;
+ margin-top: 20%;
+ color: white;
+}
+
+.slogan h1{
+font-size: 5vw;
+
+}
+
+.success-button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+  	margin-left: 3%;
+  	line-height: 54px;
+    padding: 0 28px;
+    font-weight: 700;
+}
+
+
+
+.unique-features .title {
+	text-align: center;
+}
+.unique-features .misc-text {
+	text-align: center;
+	margin: 10% 10% 10% 10%;
+}
+
+
+
+.trackr.info.stripe{
+ height: 500px;
+ color: black;
+}
+.info .how-it-works {
+	display: inline-block;
+	width: 60%;
+	height: 500px;
+
+
+}
+.how-it-works .details  {
+	height: 250px;
+
+}
+.details .main-writing {
+	text-align: center;
+	width: 70%;
+	font-size: 2.5vmax;
+	margin-left: 15%;
+
+}
+
+.unique-features .title {
+	font-size: 2vmax;
+}
+
+.unique-features .misc-text {
+	font-size: 1vmax;
+}
+.unique-features .ping {
+	display: inline-block;
+	width: 33%;
+	height: 250px;	
+	background-color:  #F5F1EF;
+	margin-top: -20px;
+
+}
+
+.unique-features .crowd-gps {
+	display: inline-block;
+	width: 34%;
+	vertical-align: top;
+	background-color: #EEE6E2;
+	height: 250px;
+	margin-top: -20px;
+	margin-left: -5px;
+	margin-right: -5px;
+
+}
+
+.unique-features .phone-finder {
+	display: inline-block;
+	width: 33%;
+	background-color:  #F5F1EF;
+	margin-top: -20px;
+	height: 250px;
+	vertical-align: top;
+
+}
+.trackr.info.stripe .changing-img{
+ display: inline-block;
+ width: 40%;
+ margin: 0;
+ height: 100%;
+ position: relative;
+ vertical-align: top;
+ float: right;
+
+}
+.trackr.info.stripe .changing-img img{
+  width: 100%;
+  height: 100%;
+  position:absolute;
+}
+.trackr.info.stripe .changing-img> img { 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    opacity: 0;
+    z-index: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 30s linear infinite 0s;
+    -moz-animation: imageAnimation 30s linear infinite 0s;
+    -o-animation: imageAnimation 30s linear infinite 0s;
+    -ms-animation: imageAnimation 30s linear infinite 0s;
+    animation: imageAnimation 30s linear infinite 0s; 
+}
+.trackr.info.stripe .changing-img > img:nth-child(2)  { 
+    background-image: url(../images/phone6.jpg);
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s; 
+}
+.trackr.info.stripe .changing-img > img:nth-child(3) { 
+    background-image: url(../images/dog.png);
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s; 
+}
+.trackr.info.stripe .changing-img > img:nth-child(4) { 
+    background-image: url(../images/coin3.png);
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s; 
+}
+.trackr.info.stripe .changing-img > img:nth-child(5) { 
+    background-image: url(../images/keyring.png);
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s; 
+}
+@-webkit-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -webkit-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -webkit-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-moz-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -moz-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -moz-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-o-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -o-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -o-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-ms-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -ms-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -ms-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@keyframes imageAnimation { 
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+#info {
+	height: 250px;
+}
+.how-it-works {
+	height: 250px;
+}
+.how-it-works .details  {
+	height: 150px;
+	overflow: scroll;
+
+}
+
+
+.unique-features .ping {
+	display: inline-block;
+	width: 33%;
+	height: 100px;	
+	background-color:  #F5F1EF;
+	margin-top: -20px;
+
+}
+
+.unique-features .crowd-gps {
+	display: inline-block;
+	width: 34%;
+	vertical-align: top;
+	background-color: #EEE6E2;
+	height: 100px;
+	margin-top: -20px;
+	margin-left: -5px;
+	margin-right: -5px;
+
+}
+
+.unique-features .phone-finder {
+	display: inline-block;
+	width: 33%;
+	background-color:  #F5F1EF;
+	margin-top: -20px;
+	height: 100px;
+	vertical-align: top;
+
+}
+.trackr.info.stripe .changing-img{
+ display: inline-block;
+ width: 40%;
+ margin: 0;
+ height: 250px;
+ position: relative;
+ vertical-align: top;
+ float: right;
+
+}
+}
+
+
+.trackr.reviews.stripe{
+ height: 200px;
+}
+.container-fluid{
+ height: inherit;
+ position: relative;
+}
+
+.trackr.reviews.stripe .rlogo{
+ position:absolute;
+ height: auto;
+ width: 70%;
+ margin-top: 32%;
+ transform: translateY(-50%);
+ -webkit-filter: grayscale(100%);
+ filter: grayscale(100%);
+}
+.trackr.reviews.stripe .rlogo.big{
+ height: auto;
+ width: 52%;
+}
+.trackr.reviews.stripe .rlogo:hover{
+ -webkit-filter: grayscale(0%);
+ filter: none;
+}
+
+.trackr.extras.stripe{
+
+}
+.text {
+	height: inherit;
+}
+
+.text .paragraph {
+	font-size: 100%;
+	width: 50%;
+	margin-left: 20%;
+}
+.text .header {
+	width: 50%;
+	margin-left: 20%;
+	margin-top: 10%;
+
+}
+
+.extras .img {
+	padding: 0;
+}
+
+.extras img {
+	
+	width: 100%;
+
+}
+
+
+.trackr.reviews.stripe{
+ height: 10em;
+
+}
+
+
+.trackr.footer.stripe{
+ height: 13em;
+ background-color: #F5F1EF;
+
+}
+.trackr.footer.stripe .container-fluid {
+	height: inherit;
+}
+
+.trackr.footer.stripe .download{
+ text-align: center;
+ color: rgb(0,139,139);
+ font-weight: bold;
+ font-size: 1vmax;
+ margin-top: 2%;
+ margin-left: -6%;
+}
+.trackr.footer.stripe .store{
+ width: 12%;
+ text-align: center;
+}
+.trackr.footer.stripe .google-app{
+ height: 30%;
+ width: 72%;
+ margin-left: 20%;
+}
+.trackr.footer.stripe .apple-app{
+ height: 39%;
+ width: 78%;
+ margin-left: -20%;
+}
+.trackr.footer.stripe .icons{
+ text-align: center;
+ color: rgb(0,139,139);
+}
+.trackr.footer.stripe .icon{
+ height: 50%;
+ font-size: 1.8vmax;
+ margin-top: 2%;
+ transform: translateY(-35%);
+ width: 6%;
+}
+.trackr.footer.stripe a{
+ /*margin-left: 12%;*/
+ color: rgb(0,139,139);
+}
+.trackr.footer.stripe .contact{
+ margin-top: 1%;
+ font-size: 1vmax;
+ font-weight: bold;
+ margin-left: 37%;
+ text-align: right;
+}
+.trackr.footer.stripe .subscribe{
+ text-align: right;
+ margin-left: -4%;
+}
+
+.trackr.footer.stripe .emailforms{
+ margin-left:58%;
+}
